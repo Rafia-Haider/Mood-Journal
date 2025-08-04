@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h3>Mood Journal</h3>
+            <p>Track your emotions daily</p>
+        </div>
+        <img src="assets/mood.png" alt="">
+    </header>
+    <div class="main">
+        <div class="container1">
+            <div class="mood-title">
+                <h3>What's your Mood today?</h3>
+            </div>
+            <div class="emoji-container">
+                <button class="mood-btn">😊</button>
+                <button class="mood-btn">☹️</button>
+                <button class="mood-btn">😡</button>
+                <button class="mood-btn">😐</button>
+            </div>
+            <p class="emojiError">Select an emoji, please.</p>
+            <div class="note-container">
+                <textarea name="note" id="noteTextArea" placeholder="Write a short note.eg:I felt happy bc.."></textarea>
+                <p class="inputError">Add a note, please.</p>
+            </div>
+            <div class="save">
+                <button>Save</button>
+            </div>
+        </div>
+        <div class="container2">
+            <h3>Mood Log:</h3>
+            <div class="allLogs">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
