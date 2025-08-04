@@ -1,21 +1,17 @@
-Mood Tracker
-A simple mood journaling app that lets you log your feelings using emojis and notes — all saved in your browser using localStorage.
+# Mood Tracker
 
-✨ Features
-Select a mood emoji
+A simple mood journaling app that lets you log your feelings using emojis and notes — all saved in your browser using `localStorage`.
 
-Add a note
+## ✨ Features
 
-Save entries with date & time
+- Select a mood emoji  
+- Add a note  
+- Save entries with date & time  
+- View and delete logs  
+- Data persists via `localStorage`  
 
-View and delete logs
+## 💻 Built With
 
-Data persists via localStorage
-
-💻 Built With
-HTML
-
-CSS
-
-JavaScript (DOM + localStorage)
-
+- HTML  
+- CSS  
+- JavaScript (DOM + localStorage)  
