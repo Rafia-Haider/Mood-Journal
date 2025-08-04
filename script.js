@@ -73,6 +73,8 @@ saveButton.addEventListener("click", function () {
         inputText.value = "";
         emojiChosen = false;
         moodButtons.forEach(element => { element.classList.remove("clicked") });
+        inputText.style.border = "none";
+        inputError.style.display = "none";
     }
 })
 
